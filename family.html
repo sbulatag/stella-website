@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Family - Stella Marie</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Parisienne&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'IM Fell English', serif;
+      background-color: #fdfbfb;
+      color: #4a1825;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #8c4356;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d16b8a;
+      text-decoration: underline;
+    }
+    h1 {
+      font-family: 'Parisienne', cursive;
+      font-size: 65px;
+      color: #4a1825;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 15px #ffffff, 0 0 25px #ffffff;
+    }
+    .info-card {
+      background: #fff0f3;
+      max-width: 550px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(74, 24, 37, 0.1);
+      border: 1px solid #f2d6dc;
+      text-align: left;
+    }
+    .section-title {
+      font-weight: bold;
+      color: #4a1825;
+      border-bottom: 1px solid #f2d6dc;
+      padding-bottom: 5px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+    .display-img {
+      width: 100%;
+      max-width: 450px;
+      height: auto;
+      display: block;
+      margin: 10px auto 15px auto;
+      border-radius: 12px;
+      border: 2px solid #f2d6dc;
+    }
+    
+    .two-img-row {
+      display: flex;
+      gap: 15px;
+      justify-content: space-between;
+      margin: 10px 0 15px 0;
+    }
+    .img-box {
+      width: 48%;
+      text-align: center;
+    }
+    .half-img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 2px solid #f2d6dc;
+      box-sizing: border-box;
+    }
+
+    .pet-item {
+      margin-bottom: 20px;
+    }
+    .pet-item p {
+      margin: 0 0 5px 0;
+      font-weight: bold;
+      color: #8c4356;
+      font-size: 18px;
+    }
+    .pet-name {
+      font-size: 16px;
+      color: #8c4356;
+      font-weight: bold;
+      margin-top: 5px;
+      text-align: center;
+    }
+    .video-link {
+      display: block;
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      color: #d16b8a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .video-link:hover {
+      text-decoration: underline;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #4a1825;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="perinfor.html">Personal Profile</a> | 
+    <a href="inthob.html">Interests</a> | 
+    <a href="family.html">Family</a> | 
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>My Family</h1>
+
+  <div class="info-card">
+
+    <div class="section-title">The Most Important Woman in My Life</div>
+    <img src="mother.jpg" alt="Mother" class="display-img">
+    <a href="everywomanintheworld.mp4" target="_blank" class="video-link">🎥 Watch</a>
+
+    <div class="section-title">Soulmate</div>
+    <img src="soulmate.jpg" alt="Soulmate" class="display-img">
+
+    <div class="section-title">Pets</div>
+    
+    <div class="pet-item">
+      <p>Cats</p>
+      <div class="two-img-row">
+        <div class="img-box">
+          <img src="mizu.jpg" alt="Mizu" class="half-img">
+          <div class="pet-name">Mizu</div>
+        </div>
+        <div class="img-box">
+          <img src="kio.jpg" alt="Kio" class="half-img">
+          <div class="pet-name">Kio</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pet-item">
+      <p>Chickens</p>
+      <div class="two-img-row">
+        <div class="img-box">
+          <img src="jingky.jpg" alt="Jingky" class="half-img">
+          <div class="pet-name">Jingky</div>
+        </div>
+        <div class="img-box">
+          <img src="jikoy.jpg" alt="Jikoy" class="half-img">
+          <div class="pet-name">Jikoy</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pet-item">
+      <p>Rabbit</p>
+      <img src="milcu.jpg" alt="Milcu" class="display-img">
+      <div class="pet-name">Milcu</div>
+    </div>
+
+    <div class="pet-item">
+      <p>Dog</p>
+      <img src="puppy.jpg" alt="Puppy" class="display-img">
+      <div class="pet-name">Puppy</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

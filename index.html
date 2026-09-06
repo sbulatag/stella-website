@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page - Warm Wishes</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Parisienne&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'IM Fell English', serif;
+      background-color: #fdfbfb;
+      color: #4a1825;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #8c4356;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d16b8a;
+      text-decoration: underline;
+    }
+    
+    /* Title with soft white background glow/outline effect */
+    h1 {
+      font-family: 'Parisienne', cursive;
+      font-size: 85px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      color: #4a1825;
+      text-shadow: 
+        0 0 15px #ffffff,
+        0 0 25px #ffffff,
+        2px 2px 0px #ffffff,
+        -2px -2px 0px #ffffff;
+    }
+
+    p {
+      font-size: 28px;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      color: #6e3041;
+    }
+
+    /* Container holding both images relative to each other */
+    .image-container {
+      position: relative;
+      display: inline-block;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    /* The main Lily image */
+    .lily {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(74, 24, 37, 0.15);
+      border: 2px solid #f2d6dc;
+      display: block;
+    }
+
+    /* Mail sticker doubled in size and shifted further into the outer edge */
+    .mail-sticker {
+      position: absolute;
+      bottom: -15px;      /* Pushed further out into the outer bottom edge */
+      right: -15px;       /* Pushed further out into the outer right edge */
+      width: 120px;       /* Doubled size from 60px to 120px */
+      height: auto;
+      transform: rotate(-15deg);
+      transition: transform 0.2s ease;
+      z-index: 10;
+      filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.25)); /* Soft shadow around sticker */
+    }
+
+    .mail-sticker:hover {
+      transform: rotate(-15deg) scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> | 
+    <a href="perinfor.html">Personal Profile</a> | 
+    <a href="inthob.html">Interests</a> | 
+    <a href="family.html">Family</a> | 
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Warm Wishes</h1>
+  <p>Whistling a bright tune for your soul.</p>
+  
+  <!-- Interactive Image Wrapper -->
+  <div class="image-container">
+    <!-- Main Lily Link -->
+    <a href="perinfor.html">
+      <img src="lily.jpg" alt="Lily" class="lily">
+    </a>
+
+    <!-- Overlay Mail Sticker Link -->
+    <a href="quote.html">
+      <img src="mail.jpg" alt="Mail Sticker" class="mail-sticker">
+    </a>
+  </div>
+
+</body>
+</html>
